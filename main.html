@@ -10,7 +10,8 @@
 	<body>
 
 		<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-danger" id="signUpButton">
   Sign Up
 </button>
 
@@ -19,25 +20,23 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Create Account</h1>
+        <h5 class="modal-title" id="exampleModalLabel">Create Account</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <div class="mb-3">
-		  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-		  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter email">
-			<div id="passwordHelpBlock" class="form-text">
-  Your information is safe with us.
-</div>
-		</div>
-
-		  <label for="inputPassword5" class="form-label">Password</label>
-			<input type="password" id="inputPassword5" class="form-control" placeholder="Password" aria-describedby="passwordHelpBlock">
-			
-
-		  <label for="inputPassword5" class="form-label">Confirm Password</label>
-		<input type="password" id="inputPassword5" class="form-control" placeholder="Confirm Password" aria-describedby="passwordHelpBlock">
-		
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter email">
+          <div id="passwordHelpBlock" class="form-text">Your information is safe with us.</div>
+        </div>
+        <div class="mb-3">
+          <label for="inputPassword5" class="form-label">Password</label>
+          <input type="password" id="inputPassword5" class="form-control" placeholder="Password" aria-describedby="passwordHelpBlock">
+        </div>
+        <div class="mb-3">
+          <label for="inputPassword5" class="form-label">Confirm Password</label>
+          <input type="password" id="inputPassword5" class="form-control" placeholder="Confirm Password" aria-describedby="passwordHelpBlock">
+        </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-success">Submit</button>
@@ -45,6 +44,7 @@
     </div>
   </div>
 </div>
+
 	
 	</body>
 </html>
